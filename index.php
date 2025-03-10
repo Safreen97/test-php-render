@@ -5,7 +5,7 @@ ini_set('display_errors', 1);
 header("Access-Control-Allow-Origin: *");
 header("Content-Type: application/json");
 
-$api_url = "http://ltaattendance.wuaze.com/fetch_employee_API.php?i=1"; 
+$api_url = "http://ltaattendance.byethost7.com/fetch_employee_API.php?i=1"; 
 
 $cookie_file = __DIR__ . "/cookie.txt"; // Store cookies
 
