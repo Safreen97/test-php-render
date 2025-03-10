@@ -5,7 +5,7 @@ ini_set('display_errors', 1);
 header("Access-Control-Allow-Origin: *");
 header("Content-Type: application/json");
 
-$api_url = "https://ltaattendance.wuaze.com/fetch_employee_API.php"; 
+$api_url = "http://ltaattendance.wuaze.com/fetch_employee_API.php"; 
 
 // Use cURL to fetch the API data
 $ch = curl_init();
