@@ -5,7 +5,7 @@ ini_set('display_errors', 1);
 header("Access-Control-Allow-Origin: *");
 header("Content-Type: application/json");
 
-$api_url = "https://ltawork.atwebpages.com/fetch_employee_API.php"; 
+$api_url = "http://ltaattendance.atwebpages.com/fetch_employee_API.php"; 
 
 $cookie_file = __DIR__ . "/cookie.txt"; // Store cookies
 
